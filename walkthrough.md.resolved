@@ -24,7 +24,7 @@ socket_message/
 
 ## 🔧 Backend Implementasyonu
 
-### [server/index.js](file:///Users/alimy1/Desktop/DENEME_PROJELERİ/socket_message/server/index.js)
+
 
 **Özellikler:**
 - ✅ Express ve Socket.io entegrasyonu
@@ -55,7 +55,7 @@ socket.on('send_message', (data) => {
 
 ## 📱 Frontend Implementasyonu
 
-### [mobile/App.js](file:///Users/alimy1/Desktop/DENEME_PROJELERİ/socket_message/mobile/App.js)
+
 
 **Özellikler:**
 - ✅ Socket.io client bağlantısı
@@ -109,7 +109,6 @@ ipconfig
 
 **App.js'de IP Adresini Güncelleyin:**
 
-[mobile/App.js:10](file:///Users/alimy1/Desktop/DENEME_PROJELERİ/socket_message/mobile/App.js#L10) satırında:
 
 ```javascript
 // ⚠️ ÖNEMLİ: Burayı değiştirin!
@@ -152,7 +151,6 @@ npx expo start
    ```
    
 2. **IP Adresini Yapılandırın**
-   - [mobile/App.js](file:///Users/alimy1/Desktop/DENEME_PROJELER%C4%B0/socket_message/mobile/App.js) dosyasında SOCKET_URL'i güncelleyin
 
 3. **Mobil Uygulamayı Başlatın**
    ```bash
