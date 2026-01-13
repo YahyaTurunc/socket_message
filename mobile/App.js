@@ -16,7 +16,7 @@ import { StatusBar } from 'expo-status-bar';
 import io from 'socket.io-client';
 
 // ⚠️ ÖNEMLİ: Burayı bilgisayarınızın yerel IP adresi ile değiştirin!
-const SOCKET_URL = "http://192.168.1.109:3000"; // 👈 BURAYI KENDİ İP ADRESİNİZLE GÜNCELLEYİN!!
+const SOCKET_URL = "http://192.168.1.XX:3000"; // 👈 BURAYI KENDİ İP ADRESİNİZLE GÜNCELLEYİN!!
 
 export default function App() {
     const [messages, setMessages] = useState([]);
